@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Clap to Scroll</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>👏 Clap to Scroll</h1>
+    <p class="subtitle">Paste your content below and scroll with your applause!</p>
+    
+    <div class="instructions">
+        <p><strong>⚠️ Important:</strong> This app needs microphone access to work. When prompted, please allow microphone permissions.</p>
+        <p>Make sure you're using a modern browser and have a microphone connected.</p>
+    </div>
+
+    <textarea id="userContent" placeholder="Paste or type your text here..."></textarea>
+
+    <button id="startBtn">Start Clap-to-Scroll</button>
+</div>
+
+<div class="status hidden">Waiting for claps…</div>
+
+<div id="scrollArea" class="hidden"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
