@@ -26,7 +26,7 @@ function startClapScroll() {
     }
 
     // Check if we're on HTTPS
-    if (location.protocol !== 'http:' && location.hostname !== 'localhost') {
+    if (location.protocol !== 'https:' && location.hostname !== 'localhost') {
         status.textContent = '❌ Microphone access requires HTTPS. Please use a secure connection.';
         return;
     }
