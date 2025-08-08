@@ -26,7 +26,7 @@ function startClapScroll() {
     }
 
     // Check if we're on HTTPS
-    if (location.protocol !== 'https:' && location.hostname !== 'localhost') {
+    if (location.protocol !== 'http:' && location.hostname !== 'localhost') {
         status.textContent = '❌ Microphone access requires HTTPS. Please use a secure connection.';
         return;
     }
@@ -51,11 +51,11 @@ function startClapScroll() {
         function loop() {
             const vol = getVolume();
 
-            if (vol > 0.05) {
+            if (vol > 0.15) {
                 const scrollAmount = vol * 500;
                 window.scrollBy({ top: scrollAmount, behavior: 'smooth' });
 
-                if (scrollAmount > 200) {
+                if (scrollAmount > 100) {
                     applause.currentTime = 0;
                     applause.play();
                     status.textContent = `👏 Strong clap! (+${Math.round(scrollAmount)}px)`;
