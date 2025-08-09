@@ -51,15 +51,18 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](<img width="1919" height="1024" alt="Screenshot 2025-08-09 023245" src="https://github.com/user-attachments/assets/0822d70a-7255-495f-ac17-a817c22c1f51" />
+![Screenshot1](<img width="1919" height="1024" alt="Screenshot 2025-08-09 023245" src="https://github.com/user-attachments/assets/7d4558b7-627e-4fe2-a32d-cf38c17ce882" />
+
 )
 Home page
 
-![Screenshot2](<img width="1915" height="963" alt="Screenshot 2025-08-09 023058" src="https://github.com/user-attachments/assets/0a425265-3d61-4ad1-b63d-d90edd14a4e4" />
+![Screenshot2](<img width="1915" height="963" alt="Screenshot 2025-08-09 023058" src="https://github.com/user-attachments/assets/64167956-1ce3-4a77-8040-796993f0fe2e" />
+
 )
 Home page with content entered
 
-![Screenshot3](<img width="1919" height="1028" alt="Screenshot 2025-08-09 023130" src="https://github.com/user-attachments/assets/ce963e8a-13fa-4fbf-a787-d11199822fe9" />
+![Screenshot3](<img width="1919" height="1028" alt="Screenshot 2025-08-09 023130" src="https://github.com/user-attachments/assets/b76eddaf-dca3-43ee-bcdb-f9f3ca6408ef" />
+
 )
 Scrolling while clapping
 
